@@ -1,4 +1,8 @@
+
 // C program for merge sort on doubly linked list
+// Time complexity is the same as time complexity of
+// merge sort of arrays O(n log n). Space complexity
+// is constant 0(1).
 #include<stdio.h>
 #include<stdlib.h>
 struct Node
