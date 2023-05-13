@@ -3,6 +3,8 @@ A repository for code snippets and short programs that illustrate concepts in C 
 
 
 **To run any of these programs on Linux or Mac, check if you have installed the gcc compiler from GNU.**
+Example:
+
 1) gcc -o karatsuba karatsuba.c
 2) karatsuba 
 
