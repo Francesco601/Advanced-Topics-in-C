@@ -3,10 +3,20 @@ A repository for programs that illustrate advanced concepts in C programming, wi
 
 
 **To run any of these programs on Linux or Mac, check if you have installed the gcc compiler from GNU.**
+```bash
+sudo apt-get install gcc
+``` 
+or for Arch based distros:
 
-Example:
+```bash
+sudo pacman -S gcc
+```
+this will install most depencies.
 
-1) gcc -o karatsuba karatsuba.c
-2) karatsuba 
+ After you verify gcc, type in terminal:
 
-For Windows, you may have to use the cc compiler to compile. 
+``` 
+gcc -o karatsuba karatsuba.c;  karatsuba 
+```
+
+For Windows, you may have to use Clang or some other compiler to compile. 
