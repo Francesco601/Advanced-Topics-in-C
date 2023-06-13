@@ -63,8 +63,11 @@ void bestFit(int blockSize[], int m, int processSize[], int n)
 	printf("\nProcess No.\tProcess Size\tBlock no.\n");
 	for (int i = 0; i < n; i++)
 	{
-	  printf("%d\t\t%d\t\t%d\t\t\n",i+1,processSize[i],allocation[i] +1);
-	       
+              printf("%d\t\t%d\t\t",i+1,processSize[i]);
+              if(allocation[i] != -1)
+                 printf("%d\n",allocation[i] + 1);
+               else		  
+		  printf("Not allocated\n");
 	}
 }
 
