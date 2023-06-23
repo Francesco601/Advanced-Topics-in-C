@@ -1,5 +1,19 @@
-// C++ program to demonstrate
-// C-SCAN Disk Scheduling algorithm
+/* C++ program to demonstrate  C-SCAN                                         
+   Disk Scheduling algorithm. The C-SCAN                                       
+ (Circular Elevator) schedling algorithm                                       
+ is a modified version of the SCAN disk                                        
+ scheduling algorithm that deals with the                                       inefficency of the SCAN algorithm by servicing                                
+ the requests more uniformly. Like SCAN, C-SCAN                                
+ moves the head from the end servicing all the                                  requests to the other end, However, as soon                                   
+ as the head reaches the other end, it immediately                              returns to the beginning of the disk without                                  
+ servicing any requests on the return trip and starts                          
+servicing again once it reaches the beginning.                                
+                                                                               
+ It is known as the "Circular Elevator Algorithm"                              
+ since it treats the cylinders as a circular list                              
+ that wraps around from the final cylinder to the                              
+ first one. */                                        
+
 #include <bits/stdc++.h>
 using namespace std;
 
