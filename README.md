@@ -11,7 +11,7 @@ or for Arch based distros:
 ```bash
 sudo pacman -S gcc
 ```
-this will install most depencies.
+this will install most depedencies.
 
  After you verify gcc, type in terminal, for example:
 
