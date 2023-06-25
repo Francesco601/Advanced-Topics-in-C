@@ -1,5 +1,4 @@
-// Reduce function from functional languages implemented in C.
-
+// Reduce function from functional languages (e.g LISP) implemented in C with function pointer
 #include <stdio.h>
 
 typedef int (*intFn)(int, int);
